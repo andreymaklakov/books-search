@@ -1,0 +1,20 @@
+form {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+
+  input {
+    width: 400px !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+    padding-right: 45px !important;
+    @media (width<500px) {
+      width: 200px !important;
+    }
+  }
+
+  .searchBtn {
+    position: absolute !important;
+    right: 5px !important;
+  }
+}

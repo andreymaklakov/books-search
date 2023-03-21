@@ -1,0 +1,35 @@
+.card {
+  background-color: rgb(230, 230, 230) !important;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 20px;
+  width: 300px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(189, 189, 189) !important;
+    transition: background-color 0.1s;
+  }
+
+  img {
+    margin: 0 auto;
+    max-width: 260px;
+    height: 250px;
+    margin-bottom: 15px;
+
+    box-shadow: 10px 10px 10px rgb(148, 148, 148);
+  }
+
+  .category {
+    color: gray;
+    text-decoration: underline;
+  }
+
+  .author {
+    color: gray;
+  }
+}

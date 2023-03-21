@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  background-image: url("https://media.npr.org/assets/img/2022/12/22/gettyimages-1245203807-1536x1029_wide-9982607ca51f99999656d993bf5511d42533c0f2-s1400-c100.jpg");
+  background-size: cover;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  color: white;
+
+  .selectFields_container {
+    display: flex;
+    gap: 20px;
+
+    @media (width < 500px) {
+      flex-direction: column;
+    }
+
+    .selectField_container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
